@@ -7,4 +7,7 @@ declare global {
     interface HTMLPointerEvent extends PointerEvent {
         target: HTMLElement;
     }
+    interface HTMLInputEvent extends InputEvent {
+        target: HTMLElement;
+    }
 }

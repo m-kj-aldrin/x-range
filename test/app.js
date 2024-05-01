@@ -10,8 +10,10 @@ document.body.addEventListener("input", (e) => {
 const range0 = document.createElement("x-range");
 range0.setOptions({
     min: 0,
-    max: 2,
-    step: 0.01,
+    max: 1024,
+    step: 1,
 });
+
+range0.normalValue = 0.25;
 
 document.body.append(range0);
